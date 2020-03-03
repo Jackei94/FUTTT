@@ -1,0 +1,75 @@
+*
+{
+    -fx-primary: #81b4d1;
+    -fx-grid: #333;
+}
+
+AnchorPane {
+    -fx-background-color: -fx-primary;
+}
+
+GridPane {
+    -fx-background-color: transparent;
+    -fx-vgap: 20px;
+    -fx-hgap: 20px;
+}
+
+TilePane {
+    -fx-background-color: -fx-primary;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 3px;
+    -fx-border-color: -fx-primary;
+    -fx-vgap: 7px;
+    -fx-hgap: 7px;
+    -fx-padding: 5px;
+}
+
+TilePane .button {
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: white;
+}
+TilePane .button:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+TilePane .button:pressed {
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+TilePane .button Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+.active {
+    -fx-background-color: #a3d3ef;
+    -fx-border-color: #93c0d9;
+}
+
+.x {
+    -fx-background-image: url(/uttt/images/XYellow.png);
+    -fx-background-size: 20 20;
+    -fx-background-position: center 5;
+    -fx-background-repeat: no-repeat;
+}
+
+.o {
+    -fx-background-image: url(/uttt/images/OOrange.png);
+    -fx-background-size: 20 20;
+    -fx-background-position: center 5;
+    -fx-background-repeat: no-repeat;
+}

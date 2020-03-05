@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.TilePane?>
 
-<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="500.0" prefWidth="500.0" stylesheets="@css/JacobStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uttt.MainController">
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="500.0" prefWidth="500.0" stylesheets="@css/Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uttt.MainController">
    <children>
       <GridPane fx:id="gridBoard" layoutX="25.0" layoutY="25.0" prefHeight="452.0" prefWidth="452.0">
         <columnConstraints>
